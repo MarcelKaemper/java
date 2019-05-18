@@ -4,6 +4,10 @@ public class classtwo {
 
     private String name;
 
+    public classtwo(String namePara){
+        name=namePara;
+    }
+
     public void setName(String namePara){
         name = namePara;
     }
