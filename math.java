@@ -15,5 +15,9 @@ public class math {
         num7 = 5;
         System.out.println(num7++);
         System.out.println(++num7);
+        num7 += 2;
+        num7 *= 2;
+        num7 -= 5;
+        System.out.println(num7);
     }
 }
