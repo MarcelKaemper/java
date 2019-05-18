@@ -1,6 +1,6 @@
 public class math {
     public static void main(String args[]){
-        int num1, num2, num3, num4, num5, num6;
+        int num1, num2, num3, num4, num5, num6, num7;
 
         num1 = 6;
         num2 = 3;
@@ -12,5 +12,8 @@ public class math {
         System.out.println(num4);
         System.out.println(num5);
         System.out.println(num6);
+        num7 = 5;
+        System.out.println(num7++);
+        System.out.println(++num7);
     }
 }
