@@ -7,7 +7,10 @@ public class classone {
         classtwo ct = new classtwo();
 
         Scanner scr = new Scanner(System.in);
-
         ct.message(scr.nextLine());
+
+        ct.setName("Billy");
+        System.out.println(ct.getName());
+        ct.printName();
     }
 }
